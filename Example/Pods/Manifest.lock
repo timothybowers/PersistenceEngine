@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PersistenceEngine: 145dbafe2a8217d2f5b7b6c80f1ae8f42fc4d315
+  PersistenceEngine: dc09d0daa6173f26376d4724ff53a467434fbd13
 
 PODFILE CHECKSUM: 3e12366a9780f8b078911cfac87932fcb9299215
 
