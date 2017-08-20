@@ -7,7 +7,7 @@
 
 ## PersistenceEngine
 
-`PersistenceEngine` is built and maintained with &#10084;&#65039; by [Timothy S Bowers]
+`PersistenceEngine` is built and maintained with &#10084;&#65039; by [Timothy S Bowers](https://github.com/timothybowers).
 
 ## About
 
