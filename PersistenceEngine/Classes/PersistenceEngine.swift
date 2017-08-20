@@ -36,12 +36,16 @@ let CoreDataSQLiteFileName = "PersistenceEngineDB"  // Do not include the .xcdat
  **Requirements:**
  
  *STEP1:*
- Create a new file, *Data Model (Core Data)* in your application folder (Main Bundle)
+ Create a new file, *Data Model (Core Data)* in your application folder (Main Bundle) and save it with the name 'PersistenceEngineDB.xcdatamodeld'
  
  *STEP2:*
- Create an **attribute** with the name 'coredictionary' for each *entity* you add to your *Data Model*.
+ Open this new file and create a new entity with any name you like (Starting with a capital), e.g. 'AirportsEntity'
+ 
+ *STEP3:*
+ Create an **attribute** with the name 'coredictionary' (all small letters) for each *entity* you add. Type must be 'Transformable'
  
  */
+
 
 public class PersistenceEngine {
     

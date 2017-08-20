@@ -50,9 +50,9 @@ pod "PersistenceEngine"
 
 `Step 1:` Create a new file, of type: Data Model (Core Data) in your application folder (Main Bundle) and save it with the name `PersistenceEngineDB.xcdatamodeld`
 
-`Step 2:` Open this new file and create a new entity with any name you like (Starting with a capital). Eg. `AirportsEntity`
+`Step 2:` Open this new file and create a new entity with any name you like (Starting with a capital), e.g. `AirportsEntity`
 
-`Step 3:` Create an attribute with the name `coredictionary` for each entity you add to your Data Model.
+`Step 3:` Create an attribute with the name `coredictionary` (all small letters) for each entity you add. Type must be `Transformable`
 
 `Step 4:` Add import statement:
 ```swift
