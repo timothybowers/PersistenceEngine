@@ -18,7 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+Dictionaries <> Core Data
+
 Making life easier to save and manage Dictionaries into Core Data for persistence.
+
+Written 100% purely in Swift 3.0
+
+Easily store your dictionaries in Core data using simple commands like:
+`persistenceStore.insert(dictionary: myDict1, intoEntity: "TestEntity1")`
+
+And read your dictionaries from Core Data using:
+`let myNewDictArray = persistenceStore.dictionaryFrom(entity: "TestEntity1")`
                        DESC
 
   s.homepage         = 'https://github.com/timothybowers/PersistanceEngine'
