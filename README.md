@@ -18,10 +18,12 @@ Making life easier to save and manage Dictionaries into Core Data for persistenc
 Written 100% purely in Swift 3.0
 
 Easily store your dictionaries in Core data using simple commands like:
-`persistenceStore.insert(dictionary: myDict1, intoEntity: "TestEntity1")`
+
+`coreDataStore.insert(dictionary: myDict1, intoEntity: "TestEntity1")`
 
 And read your dictionaries from Core Data using:
-`let myNewDictArray = persistenceStore.dictionaryFrom(entity: "TestEntity1")`
+
+`let myNewDictArray = coreDataStore.dictionaryFrom(entity: "TestEntity1")`
 
 
 ## Example
@@ -43,6 +45,43 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PersistenceEngine"
 ```
+
+## Quick-start Instructions
+
+`Step 1:` Create a new file, of type: Data Model (Core Data) in your application folder (Main Bundle) and save it with the name `PersistenceEngineDB.xcdatamodeld`
+
+`Step 2:` Open this new file and create a new entity with any name you like (Starting with a capital). Eg. `AirportsEntity`
+
+`Step 3:` Create an attribute with the name `coredictionary` for each entity you add to your Data Model.
+
+`Step 4:` Add import statement:
+```swift
+import PersistenceEngine
+```
+
+## Quick example usage:
+
+`Step 5:` Initialise a new instance of PersistanceEngine: 
+```swift
+let store = PersistenceEngine()
+```
+
+`Step 6:` Create a dictionary: 
+```swift
+let airportsDictionary: [String: Any] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+```
+
+`Step 7:` Save the dictionary to core data: 
+```swift
+store.insert(dictionary: airportsDictionary, intoEntity: "AirportsEntity")
+```
+
+`Step 8:` Load the dictionary from core data:
+```swift
+let restoredDictionary = store.dictionaryFrom(entity: "AirportsEntity")
+```
+
+
 
 ## Author
 
