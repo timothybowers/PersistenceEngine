@@ -53,7 +53,7 @@ public class PersistenceEngine {
     private var entityArray: [NSManagedObject] = []
     
     public init() {
-        print("PersistenceEngine version 0.2.2")
+        print("PersistenceEngine version 0.2.3")
         print()
         
         print("Entity list in DB: \(self.entityNames())")
