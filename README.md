@@ -1,6 +1,6 @@
 # PersistenceEngine
 
-[![CI Status](http://img.shields.io/travis/TimothyBowers/PersistenceEngine.svg?style=flat)](https://travis-ci.org/TimothyBowers/PersistenceEngine)
+[![CI Status](http://img.shields.io/travis/timothybowers/PersistenceEngine.svg?style=flat)](https://travis-ci.org/timothybowers/PersistenceEngine)
 [![Version](https://img.shields.io/cocoapods/v/PersistenceEngine.svg?style=flat)](http://cocoapods.org/pods/PersistenceEngine)
 [![License](https://img.shields.io/cocoapods/l/PersistenceEngine.svg?style=flat)](http://cocoapods.org/pods/PersistenceEngine)
 [![Platform](https://img.shields.io/cocoapods/p/PersistenceEngine.svg?style=flat)](http://cocoapods.org/pods/PersistenceEngine)
