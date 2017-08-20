@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PersistenceEngine'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PersistenceEngine.'
+  s.version          = '0.2.1'
+  s.summary          = 'Making life easier to save and manage Dictionaries into Core Data for persistence.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Making life easier to save and manage Dictionaries into Core Data for persistence.
                        DESC
 
-  s.homepage         = 'https://github.com/Timothy Bowers/PersistenceEngine'
+  s.homepage         = 'https://github.com/timothybowers/PersistanceEngine'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Timothy Bowers' => 'timbigdev@gmail.com' }
-  s.source           = { :git => 'https://github.com/Timothy Bowers/PersistenceEngine.git', :tag => s.version.to_s }
+  s.author           = { 'Timothy S Bowers' => 'timbigdev@gmail.com' }
+  s.source           = { :git => 'https://github.com/timothybowers/PersistanceEngine.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'PersistenceEngine/Classes/**/*'
   

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TestEntity1" representedClassName="TestEntity1" syncable="YES" codeGenerationType="class">
+        <attribute name="coredictionary" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="TestEntity2" representedClassName="TestEntity2" syncable="YES" codeGenerationType="class">
+        <attribute name="coredictionary" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="TestEntity3" representedClassName="TestEntity3" syncable="YES" codeGenerationType="class">
+        <attribute name="coredictionary" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TestEntity1" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="TestEntity2" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="TestEntity3" positionX="-36" positionY="9" width="128" height="60"/>
+    </elements>
+</model>

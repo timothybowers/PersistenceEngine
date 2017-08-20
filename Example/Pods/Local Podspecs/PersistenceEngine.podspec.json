@@ -1,0 +1,22 @@
+{
+  "name": "PersistenceEngine",
+  "version": "0.2.1",
+  "summary": "Making life easier to save and manage Dictionaries into Core Data for persistence.",
+  "description": "Making life easier to save and manage Dictionaries into Core Data for persistence.",
+  "homepage": "https://github.com/timothybowers/PersistanceEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Timothy S Bowers": "timbigdev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/timothybowers/PersistanceEngine.git",
+    "tag": "0.2.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PersistenceEngine/Classes/**/*"
+}
