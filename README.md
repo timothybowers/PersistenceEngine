@@ -61,7 +61,7 @@ import PersistenceEngine
 
 ## Quick example usage:
 
-`Step 5:` Initialise a new instance of PersistanceEngine: 
+`Step 5:` Initialise a new instance of PersistenceEngine: 
 ```swift
 let store = PersistenceEngine()
 ```

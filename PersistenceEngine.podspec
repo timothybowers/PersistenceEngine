@@ -31,11 +31,11 @@ And read your dictionaries from Core Data using:
 `let myNewDictArray = persistenceStore.dictionaryFrom(entity: "TestEntity1")`
                        DESC
 
-  s.homepage         = 'https://github.com/timothybowers/PersistanceEngine'
+  s.homepage         = 'https://github.com/timothybowers/PersistenceEngine'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Timothy S Bowers' => 'timbigdev@gmail.com' }
-  s.source           = { :git => 'https://github.com/timothybowers/PersistanceEngine.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/timothybowers/PersistenceEngine.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
