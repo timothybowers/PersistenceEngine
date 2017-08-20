@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PersistenceEngine_Example' do
+  pod 'PersistenceEngine', :path => '../'
+
+  target 'PersistenceEngine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
