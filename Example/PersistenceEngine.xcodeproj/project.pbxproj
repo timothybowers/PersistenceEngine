@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E24C9CB192256096A41AEB5 /* Pods_PersistenceEngine_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4DE0130E8CD6689FCCED65 /* Pods_PersistenceEngine_Tests.framework */; };
+		176FF7591F4984EA00CA93E0 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 176FF7581F4984EA00CA93E0 /* CHANGELOG.md */; };
 		17E6BE3F1F4953BB009BEEF7 /* PersistenceEngineDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17E6BE3D1F4953BB009BEEF7 /* PersistenceEngineDB.xcdatamodeld */; };
 		3237D210DFDB512C5639231B /* Pods_PersistenceEngine_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB9F2B4306533C1AE825CA0 /* Pods_PersistenceEngine_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		0EE9467B76839FB1754698AB /* PersistenceEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PersistenceEngine.podspec; path = ../PersistenceEngine.podspec; sourceTree = "<group>"; };
+		176FF7581F4984EA00CA93E0 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		17E6BE3E1F4953BB009BEEF7 /* PersistenceEngineDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistenceEngineDB.xcdatamodel; sourceTree = "<group>"; };
 		2344C299E39DF172CEE5B8ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2981CF5CBB51E0D16EC7BF52 /* Pods-PersistenceEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersistenceEngine_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersistenceEngine_Tests/Pods-PersistenceEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				176FF7581F4984EA00CA93E0 /* CHANGELOG.md */,
 				0EE9467B76839FB1754698AB /* PersistenceEngine.podspec */,
 				2344C299E39DF172CEE5B8ED /* README.md */,
 				C2F3E5C22570F91451F8F202 /* LICENSE */,
@@ -376,6 +379,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				17E6BE3F1F4953BB009BEEF7 /* PersistenceEngineDB.xcdatamodeld in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				176FF7591F4984EA00CA93E0 /* CHANGELOG.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
