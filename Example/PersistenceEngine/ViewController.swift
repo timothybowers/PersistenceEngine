@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         myDict1["field1"] = "testing"
         myDict1["field2"] = "dictionaries"
         myDict1["field3"] = "834632649391647"
-        myDict1["field4"] = 3434234245435
+        myDict1["field4"] = 4294967294
         myDict1["field5"] = [5, 6, 7, 8, 9]
         myDict1["field6"] = CGRect(x: 0, y: 0, width: 50, height: 70)
         myDict1["field7"] = 463248370.000043857892420006
