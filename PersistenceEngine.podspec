@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PersistenceEngine'
-  s.version          = '0.2.4'
-  s.summary          = 'Making life easier to save and manage Dictionaries into Core Data for persistence.'
+  s.version          = '0.2.5'
+  s.summary          = 'Making life easier to manage and save Dictionaries & Structs into Core Data for persistence.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,15 +20,17 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Dictionaries <> Core Data
 
-Making life easier to save and manage Dictionaries into Core Data for persistence.
+Making life easier to manage and save Dictionaries & Structs into Core Data for persistence.
 
 Written 100% purely in Swift 3.0
 
-Easily store your dictionaries in Core data using simple commands like:
+Easily store your dictionaries & structs in Core data using simple commands like:
 `persistenceStore.insert(dictionary: myDict1, intoEntity: "TestEntity1")`
 
 And read your dictionaries from Core Data using:
 `let myNewDictArray = persistenceStore.dictionaryFrom(entity: "TestEntity1")`
+
+Example code will show you how to save any struct into a dictionary automatically and recursively.
                        DESC
 
   s.homepage         = 'https://github.com/timothybowers/PersistenceEngine'

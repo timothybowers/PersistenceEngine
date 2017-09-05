@@ -71,14 +71,14 @@ let store = PersistenceEngine()
 let airportsDictionary: [String: Any] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
 ```
 
-`Step 7:` Save the dictionary to core data: 
+`Step 7:` Save the dictionary to core data: (Note: you can insert multiple dictionaries here into the same Entity) 
 ```swift
 store.insert(dictionary: airportsDictionary, intoEntity: "AirportsEntity")
 ```
 
-`Step 8:` Load the dictionary from core data:
+`Step 8:` Load the dictionary from core data: (Note: you will receive an ARRAY of dictionaries here)
 ```swift
-let restoredDictionary = store.dictionaryFrom(entity: "AirportsEntity")
+let restoredDictionaryArray = store.dictionaryFrom(entity: "AirportsEntity")
 ```
 
 
