@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.6] - 2018-05-08
+### Added
+- Updated example with better comments
+- Updated project for XCode 9.3
+- 
+
 ## [0.2.5] - 2017-09-05
 ### Added
 - Example using a swift Struct type

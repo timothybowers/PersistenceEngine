@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PersistenceEngine'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'Making life easier to manage and save Dictionaries & Structs into Core Data for persistence.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Dictionaries <> Core Data
 
 Making life easier to manage and save Dictionaries & Structs into Core Data for persistence.
 
-Written 100% purely in Swift 3.0
+Written 100% purely in Swift 4
 
 Easily store your dictionaries & structs in Core data using simple commands like:
 `persistenceStore.insert(dictionary: myDict1, intoEntity: "TestEntity1")`

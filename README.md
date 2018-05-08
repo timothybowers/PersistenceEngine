@@ -15,7 +15,7 @@ Dictionaries <> Core Data
 
 Making life easier to save and manage Dictionaries into Core Data for persistence.
 
-Written 100% purely in Swift 3.0
+Written 100% purely in Swift 4
 
 Easily store your dictionaries in Core data using simple commands like:
 
@@ -35,7 +35,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - Xcode 8.0+
 - iOS 10.0+
-- Interoperability with Swift 3.0+
+- Interoperability with Swift 3.0+ & Swift 4
 
 ## Installation
 
