@@ -1,0 +1,4 @@
+#1. Make sure you have installed XCode Command Line Tools
+#2. Run: pod lib lint
+#3. pod trunk register <Your Email>
+#4. pod trunk push PersistenceEngine.podspec
