@@ -221,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A46DUJ3DE9;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A46DUJ3DE9;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -513,6 +515,7 @@
 			baseConfigurationReference = F161CC52CB9F12A050D77E15 /* Pods-PersistenceEngine_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A46DUJ3DE9;
 				INFOPLIST_FILE = PersistenceEngine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -528,6 +531,7 @@
 			baseConfigurationReference = AA7520F16E93C94FF605FA26 /* Pods-PersistenceEngine_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A46DUJ3DE9;
 				INFOPLIST_FILE = PersistenceEngine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA5D5F5D526E5D647D95AF45 /* Pods-PersistenceEngine_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A46DUJ3DE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -562,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2981CF5CBB51E0D16EC7BF52 /* Pods-PersistenceEngine_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A46DUJ3DE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
